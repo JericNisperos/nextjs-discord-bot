@@ -8,7 +8,7 @@ import { executeCommand } from "@/types";
 
 // Don't change register and execute variable names
 export const register = new SlashCommandBuilder()
-  .setName("tutorialhere")
+  .setName("tutorials")
   .setDescription("description of your command");
 
 export const execute: executeCommand = async (interaction) => {
