@@ -23,7 +23,7 @@ export const execute: executeCommand = async (interaction) => {
   return {
     type: 4,
     data: {
-      content: `Hello World! ${interaction.member?.user.username}`,
+      content: `Hello World! @${interaction.member?.user.username}`,
     },
   };
 };
